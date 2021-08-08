@@ -1,0 +1,21 @@
+public class Bunny {
+    Person owner;
+    int age;
+
+    public Bunny(Person owner, int age){
+        this.owner = owner;
+        this.age = age;
+    }
+
+    public Bunny(){
+    }
+
+    public Bunny(String name, int age){
+    }
+
+    void sayHello(){
+        System.out.println("Hi, I am Bunny");
+    }
+
+
+}
