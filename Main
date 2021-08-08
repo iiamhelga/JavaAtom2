@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+
+        Bunny bunny = new Bunny("Olya", 3);
+        Person person = new Person("Olya", 1);
+        bunny.sayHello();
+        person.sayHello();
+        
+        }
+
+}
