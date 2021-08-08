@@ -1,0 +1,17 @@
+public class Person {
+    String name;
+    int numberOfRabbits;
+
+    public Person(String name, int numberOfRabbits){
+        this.name = name;
+        this.numberOfRabbits = numberOfRabbits;
+    }
+
+    public Person(){
+    }
+
+    void sayHello(){
+        System.out.println("Hi, my name is Olya");
+    }
+
+}
